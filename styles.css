@@ -1,0 +1,15 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+body {
+  font-family: 'Helvetica';
+  font-size: 2em;
+}
+input {
+  height: 50px;
+  width: 300px;
+  font-size: 1.2em;
+}

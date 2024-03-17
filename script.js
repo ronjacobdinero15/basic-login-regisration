@@ -75,6 +75,8 @@ regForm.addEventListener('submit', function (e) {
 })
 
 logForm.addEventListener('submit', function (e) {
+  e.preventDefault()
+
   // Passing username and password to the function
   if (
     validateUserNameAndPassword(
